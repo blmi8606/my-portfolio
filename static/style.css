@@ -359,3 +359,77 @@ footer {
         left: -34px;
     }
 }
+
+/* EXPERIENCE & PROJECTS */
+
+.projects-section {
+    background-color: #0f172a;
+}
+
+.projects-section .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.projects-section .project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #16233a;
+    border: 1px solid #293c59;
+    border-radius: 16px;
+    padding: 30px;
+    gap: 16px;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.projects-section .project-card:hover {
+    transform: translateY(-6px);
+    border-color: #38bdf8;
+}
+
+.project-date {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.projects-section .project-card ul {
+    padding-left: 20px;
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.projects-section .project-card li {
+    margin-bottom: 12px;
+}
+
+.projects-section .project-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 15px;
+}
+
+.projects-section .project-skills span {
+    background-color: #233956;
+    color: #7dd3fc;
+    border-radius: 20px;
+    padding: 7px 12px;
+    font-size: 12px;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+    .projects-section .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-section .project-card {
+        padding: 24px;
+    }
+}
+
