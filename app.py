@@ -28,3 +28,8 @@ def omnitrack():
 @app.route("/projects/mycology")
 def mycology():
     return render_template("mycology.html")
+
+# Hydroponics Research & Development
+@app.route("/projects/hydroponics")
+def hydroponics():
+    return render_template("hydroponics.html")
