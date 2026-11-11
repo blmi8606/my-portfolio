@@ -804,3 +804,8 @@ footer {
         font-size: 17px;
     }
 }
+/* MYCOLOGY PROJECT PAGE */
+
+.mycology-page .project-header {
+    margin-bottom: 40px;
+}

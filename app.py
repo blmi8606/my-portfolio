@@ -23,3 +23,8 @@ if __name__ == "__main__":
 @app.route("/projects/omnitrack")
 def omnitrack():
     return render_template("omnitrack.html")
+
+# Independent Mycology Research project
+@app.route("/projects/mycology")
+def mycology():
+    return render_template("mycology.html")
