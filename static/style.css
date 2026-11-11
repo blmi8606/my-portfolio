@@ -591,3 +591,89 @@ footer {
         transition: none;
     }
 }
+
+/* INDIVIDUAL PROJECT PAGES */
+
+.project-detail {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.back-link {
+    display: inline-block;
+    color: #38bdf8;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.project-detail h1 {
+    font-size: clamp(36px, 5vw, 58px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.project-subtitle {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+.project-hero-placeholder {
+    min-height: 300px;
+    background: linear-gradient(
+        135deg, #1e3a5f, #0f172a
+    );
+
+    border: 1px solid #334155;
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.project-hero-placeholder span {
+    font-size: 60px;
+}
+
+.project-hero-placeholder p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.project-hero-placeholder small {
+    color: #94a3b8;
+}
+
+.detail-block {
+    margin-bottom: 50px;
+}
+
+.project-detail .detail-block h2 {
+    font-size: 27px;
+    color: #38bdf8;
+    margin-bottom: 18px;
+}
+
+.detail-block p,
+.detail-block li {
+    color: #cbd5e1;
+    line-height: 1.9;
+}
+
+.detail-block ul {
+    padding-left: 25px;
+}
+
+.detail-block li {
+    margin-bottom: 12px;
+}
