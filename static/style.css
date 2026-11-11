@@ -677,3 +677,130 @@ footer {
 .detail-block li {
     margin-bottom: 12px;
 }
+
+.project-view-button {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+/* =====================================
+   OMNITRACK PROJECT PAGE
+===================================== */
+
+.omnitrack-page .project-header {
+    margin-bottom: 40px;
+}
+
+.omnitrack-page .project-lead {
+    max-width: 850px;
+    font-size: 19px;
+    line-height: 1.8;
+    color: #cbd5e1;
+    margin-top: 25px;
+}
+
+.omnitrack-page .project-meta {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.omnitrack-page .project-facts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+    margin-bottom: 65px;
+}
+
+.omnitrack-page .fact-card {
+    background: #16233a;
+    border: 1px solid #293c59;
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.omnitrack-page .fact-card span {
+    display: block;
+    color: #38bdf8;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.omnitrack-page .fact-card strong {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.omnitrack-page .detail-block p {
+    margin-bottom: 18px;
+}
+
+.omnitrack-page .design-component {
+    background: #16233a;
+    border-left: 3px solid #38bdf8;
+    padding: 25px;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 18px;
+}
+
+.omnitrack-page .design-component h3 {
+    color: #ffffff;
+    margin-bottom: 12px;
+    font-size: 19px;
+}
+
+.omnitrack-page .considerations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.omnitrack-page .consideration-card {
+    background: #16233a;
+    border: 1px solid #293c59;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.omnitrack-page .consideration-card h3 {
+    color: #38bdf8;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.omnitrack-page .consideration-card p {
+    color: #cbd5e1;
+    margin-bottom: 0;
+}
+
+.omnitrack-page .project-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.omnitrack-page .project-skills span {
+    background: #233956;
+    color: #7dd3fc;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+@media (max-width: 900px) {
+    .omnitrack-page .project-facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .omnitrack-page .project-facts,
+    .omnitrack-page .considerations-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .omnitrack-page .project-lead {
+        font-size: 17px;
+    }
+}

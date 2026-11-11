@@ -17,3 +17,9 @@ def neu_lab():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+# OmniTrack wearable medical device project
+@app.route("/projects/omnitrack")
+def omnitrack():
+    return render_template("omnitrack.html")
